@@ -1,12 +1,12 @@
 .content {
     text-align: center;
     margin: auto;
-    padding-top: 50px;
+    margin-top: 50px;
     padding: 15px;
     border-bottom: 1px solid rgb(188, 188, 188);
 }
 .languages {
-    
+    line-height: 12px;
     justify-content: center;
     position: relative;
 }
@@ -23,24 +23,24 @@
 h1 {
     font-size: 30px;
     font-weight: 300;
+    line-height: 10px;
 }
 h2{
     font-size: 15px;
     font-weight: 300;
+    line-height: 0px;
 }
-* {
-    line-height: 10px;
-}
+
 .one, .two, .three, .four, .five {
     display: flex;
     justify-content: center;
 }
 .languages h3 {
-    font-size: 15px;
+    font-size: 17px;
     color: rgb(0, 76, 255);
 }
 .languages p {
-    font-size: 12px;
+    font-size: 14px;
 }
 .one {
     width: 400px;
@@ -120,27 +120,77 @@ padding: 15px;
     right: 0;
     left: 0;
     padding-left: 270px;
+    font-size: 12px;
+    color: grey;
 }
 .search-bar-wrap {
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 .language-button{
-    padding: 15px;
-    width: 300px;
+    padding: 10px;
+    width: 325px;
     background-color: rgb(248, 248, 248);
     border: 1px solid rgb(131, 131, 131);
     color: rgb(28, 106, 251);
     font-weight: 700;
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
+.language-button-wrap {
+    display: flex;
+    justify-content: center;
+}
 .blue-button {
-    width: 50px;
+    width: 60px;
     height: 50px;
     border: none;
     background-color: rgb(0, 98, 255);
+    
+}
+.wiki-app img {
+    width: 100px;
+    
+}
+.wiki-app-logo {
+    box-shadow: 1px 1px 5px rgb(195, 195, 195), -1px -1px 5px rgb(195, 195, 195);
+    margin-right: 15px;
+    
+}
+.wiki-app {
+    max-width: 380px;
+   
+}
+.wiki-app-wrap {
+    
+    width: 380px;
+    display: flex;
+    padding: 10px;
+}
+.content-footer {
+    display: flex;
+    padding-top: 20px;
+}
+.site {
+    display: flex;
+   
+    padding-left: 10px;
+    align-items: center;
+}
+.site:hover {
+    background-color: rgb(228, 228, 228);
+    
+    cursor: pointer;
+}
+.other-sites {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     
 }
