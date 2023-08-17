@@ -2,6 +2,8 @@
     text-align: center;
     margin: auto;
     padding-top: 50px;
+    padding: 15px;
+    border-bottom: 1px solid rgb(188, 188, 188);
 }
 .languages {
     
@@ -35,6 +37,7 @@ h2{
 }
 .languages h3 {
     font-size: 15px;
+    color: rgb(0, 76, 255);
 }
 .languages p {
     font-size: 12px;
@@ -75,15 +78,38 @@ h2{
     text-align: center;
 }
 .search-bar {
-    background-color: rgb(0, 98, 255);
+    
     display: flex;
     align-items: center;
     justify-content: left;
     width: 450px;
 }
+.left-language {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.left-language:hover {
+    background-color: rgb(234, 234, 234);
+    cursor: pointer;
+    transition: 0.15s;
+}
+.right-language {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.right-language:hover {
+    background-color: rgb(234, 234, 234);
+    cursor: pointer;
+    transition: 0.15s;
+}
 .magnify {
-    padding-left: 16px;
+    
     fill: white;
+}
+.blue-button:hover {
+    background-color: rgb(61, 128, 252);
+    cursor: pointer;
+    transition: 0.15s;
 }
 .input {
 width: 360px;
@@ -102,5 +128,19 @@ padding: 15px;
     padding-bottom: 40px;
 }
 .language-button{
+    padding: 15px;
+    width: 300px;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgb(131, 131, 131);
+    color: rgb(28, 106, 251);
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.blue-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: rgb(0, 98, 255);
     
 }
