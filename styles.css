@@ -2,3 +2,66 @@
     text-align: center;
     margin: auto;
 }
+.languages {
+    
+    justify-content: center;
+    position: relative;
+}
+.wikipedia-globe {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
+* {
+    line-height: 10px;
+}
+.one, .two, .three, .four, .five {
+    display: flex;
+    justify-content: center;
+}
+.languages h3 {
+    font-size: 15px;
+}
+.languages p {
+    font-size: 12px;
+}
+.one {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.two {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.three {
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.four {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.five {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
